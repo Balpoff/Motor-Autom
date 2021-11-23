@@ -58,7 +58,7 @@ class Com:
 
 	def writeCmd_(self,*args):
 		for i in args:
-			print(i)
+			#print(i)
 			#start = time.time()
 			if self.ARDCom.is_open:
 				self.ARDCom.write(self.packOneByte(i))
